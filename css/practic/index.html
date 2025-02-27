@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Walking Animation</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f0f0f0;
+    }
+    /* The walker (body) */
+    .walker {
+      position: relative;
+      width: 40px;
+      height: 60px;
+      background: #3498db;
+      box-shadow: 0px 5px  5px rgba(65, 63, 63, 0.753);
+      /* Animate the horizontal movement */
+      animation: walk 5s infinite ease-in;
+    }
+    /* Create two simple legs using pseudo-elements */
+    .walker::before,
+    .walker::after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 20px;
+      background: #2980b9;
+      bottom: 0;
+    }
+    /* Left leg */
+    .walker::before {
+      left: 5px;
+      transform-origin: top center;
+      animation: leg1 0.5s infinite alternate;
+    }
+    /* Right leg */
+    .walker::after {
+      right: 5px;
+      transform-origin: top center;
+      animation: leg2 0.5s infinite alternate;
+    }
+    /* Keyframes for leg movement */
+    @keyframes leg1 {
+      from { transform: rotate(20deg); }
+      to   { transform: rotate(-20deg); }
+    }
+    @keyframes leg2 {
+      from { transform: rotate(-20deg); }
+      to   { transform: rotate(20deg); }
+    }
+    /* Keyframes for horizontal walking motion */
+    @keyframes walk {
+      0%   { transform: translateX(0); }
+      50%  { transform: translateX(200px); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="walker"></div>
+</body>
+</html>

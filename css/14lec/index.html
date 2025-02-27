@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive gird</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            padding: 4rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit ,minmax( 200px,500px));
+            /* grid-template-columns: repeat(3,1fr); */
+            gap: 1rem;
+            background-color: rgb(66, 51, 51);
+            
+        }
+        .item{
+            padding: 1rem;
+            border: 3px solid black;
+            background-color: rgb(46, 46, 117);
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+        <div class="item">d</div>
+        <div class="item">e</div>
+        <div class="item">f</div>
+        <div class="item">g</div>
+        <div class="item">h</div>
+        <div class="item">i</div>
+        <div class="item">j</div>
+        <!-- <div class="item">k</div>
+        <div class="item">l</div>
+        <div class="item">m</div>
+        <div class="item">n</div>
+        <div class="item">o</div>
+        <div class="item">p</div> -->
+    </div>
+</body>
+</html>

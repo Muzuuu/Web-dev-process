@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .contener{
+            width: 100vw;
+            height: 100vh;
+            background-color: aquamarine;
+            padding: 20px;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            border: 3px solid red;
+            margin: 10px;
+            border-radius: 100px;
+            box-shadow: 10px 10px 5px rgb(66, 26, 26);
+            position: relative;
+            /* animation-name: moveright;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-out; */
+            animation: moveright 5s ease-in 2s infinite alternate;
+        }
+        @keyframes moveright{
+            from{
+                top: 0;
+                left: 0;
+            }
+            to{
+                top: 0;
+                left: 1200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contener">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>

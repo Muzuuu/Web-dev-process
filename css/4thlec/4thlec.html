@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .exe{
+            border: solid 5px rgb(26, 27, 23);
+            height: 1000px;
+            background-color: rgb(196, 197, 129);
+            /* position: relative; */
+            
+        }
+        .box{
+            border: solid 3px rgb(241, 10, 98);
+            height: 1000px;
+            background-color: rgb(118, 145, 136);
+        }
+        .img1{
+            /* position: relative;
+            top: 130px;
+            left: 30px; */
+            /* position: absolute;
+            top: 130px;
+            left: 30px; */
+            position: fixed;
+            top: 200px;
+            
+        }
+        .img2{
+            position: sticky;
+            top: 300px;         
+            left: 500px;
+        }
+        #Img{
+            position:relative;
+            top: 10px;
+            left: 200px;
+        }
+        .box3{
+            border: 5px solid red;
+            height: 1000px;
+            background-color: rgb(131, 120, 120);
+        }
+        .img3{
+            position: absolute;
+            right: 300px;
+            top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="exe">
+        <img src="img1.png" alt="img1"
+        width="400px"
+        height="200px"
+        class="img1"
+       
+        >
+        <img src="img2.png" alt="img1"
+        width="400px"
+        height="200px"
+        class="img2"
+        >
+        <img src="img3.png" alt="img1"
+        width="400px"
+        height="200px"
+        class="img3"
+        >
+    </div>
+    <div class="box">
+        <img src="img1.png" alt="img1"
+        width="400px"
+        height="200px"
+       
+        id="Img"
+        >
+    </div>
+    <div class="box3"></div>
+</body>
+</html>

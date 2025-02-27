@@ -1,0 +1,17 @@
+/* .contener{
+    display: flex;
+    justify-content: center;
+} */
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+p{
+    font-size: 28px;
+}
