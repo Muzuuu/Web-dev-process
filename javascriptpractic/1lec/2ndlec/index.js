@@ -133,3 +133,114 @@
 
 
 // loop & string 
+// console.log("muz");
+// >for >while >do-while >for in >for each >for of 
+
+// for(let i =2;i<10;i++){
+//     let j =i+i;
+//     console.log(j);
+    
+// }
+
+// for(let  i=5 ; i>0 ;i--){
+//     console.log(i);
+    
+// }
+
+// for(let i=1; i<=6;i++){
+//     if(i==2)
+//         continue;
+//     else{
+//         console.log(i);
+        
+//     }
+// }
+
+// let i =1;
+// while(i<=10){
+//     console.log("muz");
+//     i++;
+    
+// }
+
+// let i =1;
+// while(i<=10){
+//     console.log(i);
+//     i++;   
+// }
+// Using a for loop
+// function sumUsingLoop(N) {
+//     let sum = 0;
+//     for (let i = 1; i <= N; i++) {
+//         sum += i;
+//     }
+//     return sum;
+// }
+
+// // Using the mathematical formula
+// function sumUsingFormula(N) {
+//     return (N * (N + 1)) / 2;
+// }
+
+// // Example usage
+// let N = 5;
+// console.log("Sum using loop:", sumUsingLoop(N)); // Output: 15
+// console.log("Sum using formula:", sumUsingFormula(N)); // Output: 15
+
+// let sum=0;
+// for(let i= 1; i<=10; i++){
+//     sum+=i;
+// }
+// console.log(sum);
+
+// let i=1;
+// while(i<=10){
+//     console.log(i);
+    
+//     if(i==5){
+//         i++;
+//         continue;
+//     }
+        
+//     else
+//         console.log(i);
+//     i++;
+// }
+
+// let i=10;
+// do{
+//     console.log(i);
+//     i--;
+    
+// }while (i>=1) ;
+
+
+// let fname="muz";
+// let lname='mak';
+// let name=`muz mak`;
+// console.log(fname);
+// console.log(lname);
+// console.log(name);
+
+// let name =new String('muz');
+// console.log(name);
+
+// string opration 
+// let op1 ='english ';
+// let op2 ='hindi';
+// // let op3 =op1+op2;
+// // console.log(op3);
+// let final=`${op1}`+`${op2}`;
+// console.log(final);
+// console.log(op1.length);
+// console.log(op2.toUpperCase());
+// console.log(op2.toLowerCase());
+
+// let str="hello baby how are u";
+// console.log(str.substring(2));
+// console.log(str.substring(2,8));
+// let word = str.split(" "); 
+// console.log(word);
+// console.log(word.join(','));
+
+
