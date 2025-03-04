@@ -327,13 +327,14 @@
 // let fact= factorialofnum(5);
 // console.log(fact);
 
-let countnum= (n) =>{
-    let count=0;
-    while(n>0){
-        n = Math.floor(n / 10); 
-        count++;
-    }
-    return count;
-}
-let m=countnum(456545);
-console.log(m);
+// let countnum= (n) =>{
+//     let count=0;
+//     while(n>0){
+//         n = Math.floor(n / 10); 
+//         count++;
+//     }
+//     return count;
+// }
+// let m=countnum(456545);
+// console.log(m);
+
