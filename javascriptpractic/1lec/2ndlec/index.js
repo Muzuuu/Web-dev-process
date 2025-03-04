@@ -243,4 +243,97 @@
 // console.log(word);
 // console.log(word.join(','));
 
+// function printnum(){
+//     for(let i=1 ;i<=10;i++){
+//         console.log(i);
+//     }
+// }
+// printnum();
 
+// function printmyname(num){
+//     console.log('my name is :',num);
+    
+// }
+// printmyname(2);
+
+// function avgofnum(n1,n2){
+//     let avg=(n1+n2)/2;
+//     console.log(avg);
+    
+// }
+// avgofnum(55,5);
+
+// return function 
+// function getsum(a,b,c){
+//     let sum =a+b+c;
+//     return sum;
+// }
+// let tsum =getsum(1,3,5);
+// console.log(tsum);
+
+// function getmyname(fname,lname){
+//     let name= fname+' '+lname;
+//     return name;
+// }
+// let name=getmyname(,'mak');
+// console.log(name);
+
+//  function getmultimy(a,b){
+//     return a*b;
+// }
+// // let a=getmultimy(2,3);
+// // console.log(a);
+// console.log(getmultimy(2,3));
+
+// let squarofnum = function(a){
+//     let num =a**2;
+//     return num;
+// }
+// let num = squarofnum(2);
+// console.log(num);
+
+// let getexp=  (x,y) =>{
+//     let ans=x**y;
+//     return ans;
+// }
+// console.log(getexp(2,3)); mostly used
+
+// function sumofallnum(num){
+//     let sum=0;
+//     for(let i= 1;i<=num;i++){
+//         sum=sum+i;
+//     }
+//     console.log(sum);
+    
+// }
+// sumofallnum(10)
+
+// let tableofmulti = (n) => {
+//     for (let i = 1; i <= 10; i++) {
+//         let multi = n * i;
+//         console.log(n, 'X', i, '=', multi);
+//     }
+// };
+// tableofmulti(5);  // ✅ Correct way to call the function
+
+// let factorialofnum=(num) =>{
+//     let fact=1;
+//     for(let i=1;i<=num;i++){
+//         fact*=i;
+//     }
+//     return fact;
+    
+// }
+// let fact= factorialofnum(5);
+// console.log(fact);
+
+let countnum= (n) =>{
+    let count=0;
+    while(n>0){
+        n = Math.floor(n / 10); 
+        count++;
+    }
+    return count;
+}
+let m=countnum(456545);
+console.log(m);
