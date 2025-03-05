@@ -237,3 +237,50 @@
 //     console.log("muz");
     
 // }
+
+    //    variable scopping 
+// > globle scpop 
+// >function 
+// >block 
+
+// > globle scpop 
+//  const age = 20;
+//  console.log(age);
+//  {
+//     console.log('use bracat' ,age);
+    
+//  }
+//  if (true){
+//     console.log('if block' ,age);
+    
+//  }
+//  for (let i=0;i<=5;i++){
+//     console.log('for block',age);
+    
+//  }
+//  function sayhello(){
+//     console.log('function block',age);
+    
+//  }
+//  sayhello();
+
+
+// function sayhello(){
+//     var fname ='earth';
+//     console.log("hello",name);
+    
+// }
+// console.log(fname);
+
+// sayhello();
+
+
+// {
+//     var ht=180;
+// }
+// console.log(ht);
+// {
+//     let ht=190;
+// }
+// console.log(ht);
+
