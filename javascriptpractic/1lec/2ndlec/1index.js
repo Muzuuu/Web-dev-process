@@ -176,3 +176,64 @@
 
 // }
 // const obj =new human()
+
+// function greetme (greet,fname){
+//     console.log("muz say",fname);
+//     greet();
+    
+// }
+// function greet(){
+//     console.log("hello");
+    
+// }
+// greetme(greet,'muzammil');
+
+// function sol(num){
+//     return function(num){
+//         return num*num;
+//     }
+// }
+// let ans = sol(5);
+// let final=ans(10);
+// console.log(final);
+
+
+// const arr =[ 
+//     function (a,b){
+//         return a+b;
+//     },
+//     function(a,b){
+//         return a-b;
+//     },
+//     function(a,b){
+//         return a*b;
+//     }
+// ];
+// let first = arr[0];
+// let ans = first(5,10);
+// console.log(ans); 
+// let second = arr[1];
+// let ans1 = second(5,10);
+// console.log(ans1); 
+// let th = arr[2];
+// let anss = th(5,10);
+// console.log(anss); 
+
+// let obj ={
+//     age :50,
+//     ht:157,
+//     wt:59,
+//     greet: () =>{
+//         console.log("hello");
+        
+//     }
+// }
+// console.log(obj.age);
+// obj.greet();
+
+// console.log(greet);
+
+// var greet = function (){
+//     console.log("muz");
+    
+// }
