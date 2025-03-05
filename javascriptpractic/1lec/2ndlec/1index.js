@@ -128,3 +128,51 @@
     
 // }
 
+// function removeDuplicates(arr) {
+//     return [...new Set(arr)];
+// }
+
+// // Test
+// console.log(removeDuplicates([1, 2, 3, 2, 4, 1, 5])); 
+// // Output: [1, 2, 3, 4, 5]
+
+// function findSecondLargest(arr) {
+//     let arr1 = arr.sort().reverse();
+//     return console.log(arr1[1]);
+    
+// }
+// console.log(findSecondLargest([10, 20, 4, 45, 99])); 
+
+// function moveZerosToEnd(arr) {
+//     let arr1 = arr.sort();
+   
+    
+//     return arr1;
+// }
+// console.log(moveZerosToEnd([0, 1, 0, 3, 12]));
+
+// saymyname("muza");
+
+        // function hosting 
+// function saymyname(finalname){
+//     console.log(finalname);
+//     saymyname("muza");
+// }
+
+        // variable hosting
+// var age =20;
+// console.log(age);
+
+// const age =20;
+// console.log(age);
+
+// sayhello()
+// let sayhello =function (){
+//     console.log("muz");
+    
+// }
+
+// class human{
+
+// }
+// const obj =new human()
