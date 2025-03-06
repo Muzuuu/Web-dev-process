@@ -75,3 +75,50 @@
     
 // }
 // utility();
+
+// console.log(Math.PI);
+// console.log(Math.max(60,70,50,30,20,10));
+// console.log(Math.min(60,70,50,30,20,10));
+// console.log(Math.round(1.4));
+// console.log(Math.floor(2.4));
+// console.log(Math.ceil(1.9));
+// console.log(Math.abs(-5));
+// console.log(Math.random());
+// console.log(Math.sqrt(4));
+// console.log(Math.pow(2,2));
+
+
+// let curr = new Date()
+// console.log(curr);
+
+
+// let scr ={
+//     age:19,
+//     wt:89,
+//     ht:190 
+// };
+// console.log(obj);
+// obj.colour='red';
+// console.log(obj);
+
+// clone objaect 
+// let dest={...scr};
+// console.log('scr',scr);
+// dest.age=55;
+// console.log('dest ',dest);
+
+// let dest =Object.assign({},scr);
+// console.log('scr',scr);
+// dest.age=55;
+// console.log('dest ',dest);
+
+// let dest= {};
+// for(let key in scr){
+//     let newkey =key;
+//     let val =scr[key];
+//     dest[key]=val;
+    
+// }
+// console.log('scr',scr);
+// dest.age=55;
+// console.log('dest ',dest);
