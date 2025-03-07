@@ -5,3 +5,4 @@
 // let parent = document.querySelector("#mydiv");
 // let child = document.querySelector('#fpara');
 // parent.removeChild(child);
+let paraele =document.getElementById('spara');

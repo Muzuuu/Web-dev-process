@@ -3,29 +3,22 @@ body{
     width: 100vw;
     background-color: aqua;
 }
-.ft{
-    width: 500px;
-    height: 500px;
-    background-color: bisque;
-    margin: 3rem;
-    padding: 3rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: brown;
-    font-weight: bold;
-    font-size: 3rem;
+#fdiv{
+    background-color: rebeccapurple;
+    margin: 2rem;
+    padding: 2rem;
+    width: 550px;
+    color: aqua;
+    background-color: rgb(51, 47, 13);
 }
-#mydiv{
-    color: blue;
-    display: flex;
-    flex-direction: column;
-    padding: 3rem;
-    justify-content: center;
-    font-size: 1.2rem;
-    background-color: cadetblue;
-    width: 50%;
+#fpara{
+    color: red ;
+    padding: 2rem;
+    background-color: rgb(185, 132, 16);
+}
+/* #sdiv{
 
-}
+} */
+/* #spara{
+
+} */
