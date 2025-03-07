@@ -122,3 +122,29 @@
 // console.log('scr',scr);
 // dest.age=55;
 // console.log('dest ',dest);
+
+      // error handeling
+// console.log(1; compile type error
+//  console.log(x);  run time error 
+ 
+// try{
+//     console.log('ur try block start here');
+//     console.log(x);
+//     console.log('2nd try block'); //this line wil not print
+// }
+// catch(e){
+//     console.log('ur catch block start here');
+//     console.log(e); //this will give what type of error
+    
+// }
+// finally{
+//     console.log('i will run anyway');
+    
+// }
+// try{
+//     console.log(x);
+    
+// }
+// catch(e){
+//     throw new Error('bhai pehle declar karo , fer print karo');
+// }
