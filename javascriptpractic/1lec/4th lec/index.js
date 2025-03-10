@@ -88,3 +88,27 @@
     
 // })
  
+//    Promise 
+    //    >then 
+    //    >catch 
+
+// async-await  = sencronus behaveor
+
+// async function getdat() {
+//     setTimeout(function(){
+//         console.log('im inside set timeout block');
+        
+//     },3000)
+// }
+// let output =getdat();
+
+async function getdata(){
+    //get request 
+    let responce  = fetch('https://jsonplaceholder.typicode.com/todos/1');
+    console.log(responce);
+    
+}
+// scenario 
+// prepare url / api end point -> sync
+//( mark ->await ) // fetch data -> network call ->async 
+// process data -> sync 
