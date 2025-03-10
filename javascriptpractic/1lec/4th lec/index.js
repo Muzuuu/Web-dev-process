@@ -102,13 +102,50 @@
 // }
 // let output =getdat();
 
-async function getdata(){
-    //get request 
-    let responce  = fetch('https://jsonplaceholder.typicode.com/todos/1');
-    console.log(responce);
+// async function getdata(){
+//     //get request 
+//     let responce  = await fetch('https://jsonplaceholder.typicode.com/posts');
+//     let data = await responce.json();
+//     console.log(data);
     
-}
+// }
+// getdata();
 // scenario 
 // prepare url / api end point -> sync
 //( mark ->await ) // fetch data -> network call ->async 
 // process data -> sync 
+
+// const myheader = new Headers();
+// myheader.append("content-Type","application/json");
+// const myRequst =new Request("https://example.org/post",{
+//     method:"POST",
+//     body:JSON,stringify({username:"example"}),
+//     headers:myheader,
+// });
+// const responce =await fetch(myRequst);
+
+// const myheader = new Headers();
+// myheader.append("content-Type","application/json");
+// const url ="https://jsonplaceholder.typicode.com/posts";
+
+// const option ={
+//     method:"POST",
+//     body : JSON.stringify({username:"Muzammil"}),
+//     headers:myheader,
+// };
+// async function getdata(){
+//     const responce =await fetch(url);
+//     let data =await responce.json();
+//     console.log("get data response:",data);
+// }
+// async function postdata(){
+//     const responce =await fetch(url,option);
+//     let data =await responce.json();
+//     console.log("post data response:",data);
+    
+// };
+// async function processdata(){
+//     await postdata();
+//     await getdata();
+// }
+// processdata();
